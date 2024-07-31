@@ -5,11 +5,6 @@ along with the necessary key, in order to ensure data integrity and confidential
 
 The program was developed using the C# programming language.
 
-## Table of Contents
-Features
-Encryption Block Diagram
-Decryption Block Diagram
-Key Block Diagram
 
 ## Features
 Allows users to encrypt and decrypt a text data.
