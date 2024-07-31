@@ -8,20 +8,20 @@ The program was developed using the C# programming language.
 Allows users to encrypt and decrypt text data.
 
 ## Encryption Block Diagram
-The plaintext is split into two equal halves. 
-Then each half will be shifted left by two.
-Then the two parts are combined.
-Then they are XORed with the encryption key provided by the user to obtain the ciphertext.
+1. The plaintext is split into two equal halves. 
+2. Then each half will be shifted left by two.
+3. Then the two parts are combined.
+4. Then they are XORed with the encryption key provided by the user to obtain the ciphertext.
 
 ## Decryption Block Diagram
-The ciphertext is XORed with the encryption key.
-Then the decrypted plaintext is split into two equal halves.
-Each half of the decrypted plaintext is shifted right by two.
-Then the shifted halves are combined to obtain the original plaintext.
+1. The ciphertext is XORed with the encryption key.
+2. Then the decrypted plaintext is split into two equal halves.
+3. Each half of the decrypted plaintext is shifted right by two.
+4. Then the shifted halves are combined to obtain the original plaintext.
 
 ## Key Block Diagram
-The key will be shifted left by two.
-Then it passes through a P-Box transformation to generate the new key.
+1. The key will be shifted left by two.
+2. Then it passes through a P-Box transformation to generate the new key.
 
 ## Usage
 1. Clone the repository to your local machine.
